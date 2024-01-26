@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.active-event-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  border: 1px solid #ccc;
+  margin: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.active-event-details-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.active-event-details-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.active-event-details-info {
+  font-size: 1rem;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.active-event-details-button {
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #4285f4;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.active-event-details-button:hover {
+  background-color: #357ae8;
+}
